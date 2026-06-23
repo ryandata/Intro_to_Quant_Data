@@ -24,7 +24,7 @@ Understanding the data itself is an important stage of research, even before any
 
 ### Descriptive statistics
 
-Descriptive statistics refer to numeric and tabular summaries of data. We illustrate this with [R code](https://github.com/ryandata/Intro_to_Quant_Data/raw/refs/heads/main/mtcars_descriptives.R).
+Descriptive statistics refer to numeric and tabular summaries of data. We illustrate this with [R code](https://github.com/ryandata/Intro_to_Quant_Data/blob/main/mtcars_descriptives.R).
 
 ### Data visualization
 
@@ -42,7 +42,7 @@ Once we have some understanding of the structure of our data, we may wish to use
 
 Both classical statistics and Bayesian statistics have a rich collection of theory and methods to deal with almost any kind of quantitative problem that can be formulated.
 
-As an example of inference and prediction, we'll look at one example of correlation and regression in R. 
+As an example of inference and prediction, we'll look at one example of [correlation and regression in R](https://github.com/ryandata/Intro_to_Quant_Data/blob/main/mtcars_regression.R). 
 
 ### Machine learning into AI
 
