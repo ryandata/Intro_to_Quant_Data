@@ -24,11 +24,13 @@ Understanding the data itself is an important stage of research, even before any
 
 ### Descriptive statistics
 
-Descriptive statistics refer to numeric and tabular summaries of data. We illustrate this with Python and R code.
+Descriptive statistics refer to numeric and tabular summaries of data. We illustrate this with [R code](https://github.com/ryandata/Intro_to_Quant_Data/raw/refs/heads/main/mtcars_descriptives.R).
 
 ### Data visualization
 
 Data visualization provides another way to understand our data, through manifold methods. The right visualization can simplify the understanding of complex datasets, and can provide insights not easily detected through other ways.
+
+Here is a [recent presentation using a Python notebook](https://github.com/ryandata/CSI_SURF/blob/main/Python_Visualization.ipynb) covering data visualization in Python. Also, here is the [full repository, also with R code](https://github.com/ryandata/CSI_SURF).
 
 Interactive data visualization in particular represents a rich field for exploration.  We illustrate this with [Shiny](https://shiny.posit.co) which can be used with both R and Python.
 
@@ -58,11 +60,26 @@ For example, we could look at a corpus of social media posts about a political c
 
 However, one could analyze the posts individually, without processing them this way. The methods for that lead us into the realm of qualitative data, the subject of the second part of today's presentation.
 
+## Data Analytics software
+
+### R
+
+[R](https://r-project.org) is open source statistical software, with many useful packages to accomplish nearly any cutting edge task in statistics, and also strong in computing. 
+
+[RStudio](https://rstudio.posit.co) is a long-standing and very popular development environment for using R. [Positron](https://positron.posit.co) is a newer development environment that provides equal support for both R and Python
+
+### Python
+
+[Python](https://www.python.org) is an open source computing language that is particularly strong for data science and machine learning. 
+
+Editing tools for Python include [PyCharm](https://www.jetbrains.com/pycharm/), [Jupyter notebooks](https://jupyter.org/), [Google Collab](https://colab.research.google.com/), [Positron](https://positron.posit.co)and many more. Anaconda is widely used, but it is somewhat problematic in an academic context due to its ambiguous licensing terms. My recommendation is to stick with more open tools.
+
+### A note on commercial software
+
+While in some organizations or communities commercial software may be popular or dominant, be cautious in adopting it. Costly licensing and distribution may prevent full use, and prevent others from accessing your work. Also, the ability to keep up with future developments may be limited by software availability.
 
 ## Further learning
 
-The Libraries [Data-Tools](https://libguides.rutgers.edu/data-tools) page provides the most convenient jumping off point for delving into the workshops and other learning materials provided by the Libraries for data analytic software and methods. Along with this, there are many other online sources of discovery.
+The Libraries [Data Tools](https://libguides.rutgers.edu/data-tools) page provides the most convenient jumping off point for delving into the workshops and other learning materials provided by the Libraries for data analytic software and methods. Along with this, there are many other online sources of discovery.
 
 You can reach out to me **Ryan Womack, Data Librarian** using the contact information on that page.
-
-
