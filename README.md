@@ -50,6 +50,14 @@ A classic starting place for machine learning methods is [_scikit-learn_](https:
 
 And here is a pointer to a workshop on the actual theory and practice of building and using your own LLM.
 
+### LLM's and text - quantitative or qualitative?
+
+When we are working with large quantities of textual data, whether as inputs or as the output of an LLM, we have a choice of how to treat this data. By quantifying it and giving it structure, we can make it behave like quantitative data. 
+
+For example, we could look at a corpus of social media posts about a political candidate and use analytical tools to generate a sentiment analysis. Such tools usually work with predefined lists of positive or negative words to give a numerical rating to a collection of texts.
+
+However, one could analyze the posts individually, without processing them this way. The methods for that lead us into the realm of qualitative data, the subject of the second part of today's presentation.
+
 
 ## Further learning
 
