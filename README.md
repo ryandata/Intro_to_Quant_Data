@@ -20,25 +20,41 @@ The inherent structure in quantitative data lends itself to systematic analysis,
 
 ## Exploratory data analysis
 
+Understanding the data itself is an important stage of research, even before any interpretation or analysis.  These steps may also involve data cleaning, a very important part of data work that we will not cover here.
+
 ### Descriptive statistics
+
+Descriptive statistics refer to numeric and tabular summaries of data. We illustrate this with Python and R code.
 
 ### Data visualization
 
+Data visualization provides another way to understand our data, through manifold methods. The right visualization can simplify the understanding of complex datasets, and can provide insights not easily detected through other ways.
+
+Interactive data visualization in particular represents a rich field for exploration.  We illustrate this with [Shiny](https://shiny.posit.co) which can be used with both R and Python.
+
 ## Explanatory and predictive analysis
+
+Once we have some understanding of the structure of our data, we may wish to use modeling to detect correlation and causation. And then possibly use the models we create to generate predictions. This is the realm of statistics and machine learning.
 
 ### Classical statistics (and Bayesian)
 
-techniques such as regression and its refinements
+Both classical statistics and Bayesian statistics have a rich collection of theory and methods to deal with almost any kind of quantitative problem that can be formulated.
 
-classification
+As an example of inference and prediction, we'll look at one example of correlation and regression in R. 
 
 ### Machine learning into AI
 
-ML/AI were historically the same thing. Here we are talking about using computing power to analyze and make inferences and predictions about data. As an umbrella term, this refers to a grab bag of popular statistical methods for understanding data. Of course, the rise of Large Language Models has led to the term AI being used primarily for Generative AI, which is just one approach to working with data, one that assembles words or images in a likely sequence depending on the input given.
+ML/AI were historically two sides of the same coin. Here we are talking about using computing power to analyze and make inferences and predictions about data. As an umbrella term, machine learning refers to a grab bag of popular statistical methods for understanding data. Of course, the rise of Large Language Models has led to the term AI being used primarily for Generative AI, which is just one approach to working with data, one that assembles words or images in a likely sequence depending on the input given.
 
- 
-  from small to big data, structured, unstructured, etc.
+A classic starting place for machine learning methods is [_scikit-learn_](https://scikit-learn.org/stable/index.html) for Python.
 
-2. Methods from exploratory analysis, descriptive statistics, regression and classical methods, ML methods to AI
+And here is a pointer to a workshop on the actual theory and practice of building and using your own LLM.
 
-3. Illustrate this with Python and R code snippets (not teaching it, but making running examples available, and pointing to our workshops for learning more) 
+
+## Further learning
+
+The Libraries [Data-Tools](https://libguides.rutgers.edu/data-tools) page provides the most convenient jumping off point for delving into the workshops and other learning materials provided by the Libraries for data analytic software and methods. Along with this, there are many other online sources of discovery.
+
+You can reach out to me **Ryan Womack, Data Librarian** using the contact information on that page.
+
+
