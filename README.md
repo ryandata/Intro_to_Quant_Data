@@ -50,7 +50,7 @@ ML/AI were historically two sides of the same coin. Here we are talking about us
 
 A classic starting place for machine learning methods is [_scikit-learn_](https://scikit-learn.org/stable/index.html) for Python.
 
-And here is a pointer to a workshop on the actual theory and practice of building and using your own LLM.
+And here is a pointer to a workshop on the actual theory and practice of [building and using your own LLM](https://nbviewer.org/github/Tanya-Khanna/Data-Science-Workshop---Spring-2025---NBL-/blob/main/Workshop%208/Workshop8-Practical%20Session.ipynb). Also see [Tanya Khanna's full suite of workshop materials](https://rutgers-new-brunswick-libraries-data-science-workshops.streamlit.app/)
 
 ### LLM's and text - quantitative or qualitative?
 
