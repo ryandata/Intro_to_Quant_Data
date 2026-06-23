@@ -1,24 +1,21 @@
 data(mtcars)
-names(mtcars)
-mtcars
 ?mtcars
 
-table(gear)
+cor(disp,hp)
+cor(disp,mpg)
 
-# note we can either say
-table(mtcars$gear)
+lm(mpg~disp)
+regoutput <- lm(mpg~disp)
+summary(regoutput)
+plot(regoutput)
 
-# or make our lives easier by
-attach(mtcars)
-table(cyl)
-summary(gear)
-mean(mpg)
-summary(mpg)
-median(hp)
-summary(hp)
+lm(mpg~disp+am+wt+gear)
+regoutput2 <- lm(mpg~disp+am+wt+gear)
+summary(regoutput2)
 
-summary(mtcars)
+lm(mpg~disp+wt)
+regoutput3 <- lm(mpg~disp+wt)
+summary(regoutput3)
 
-table(cyl,gear)
-table(cyl,vs)
-table(cyl,am)
+library(tidyverse)
+ggplot(mtcars, aes(mpg,wt)) + geom_point() + geom_smooth(method='lm')
